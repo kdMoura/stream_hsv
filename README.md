@@ -79,4 +79,16 @@ python -m shsv.evaluation stream --f-input-path /path/to/predictions/folder --f-
 --forgery skilled --thr-type global --fusions max \
 --window-size 400 --window-step 400
 ```
+## Reproducibility Scripts
 
+This repository includes three key scripts designed for the reproducibility of the experiments:
+
+1. **`reproduce_data.py`**: This script includes all necessary configurations to generate the datasets used in the experiments.
+
+2. **`reproduce_model.py`**: This script includes all configurations for training the models and performing tests on the datasets.
+
+3. **`reproduce_evaluation.py`**: This script performs the evaluation of the model results, including all necessary configurations to replicate the evaluation metrics presented in the study.
+
+### Important Note:
+
+While these scripts are fully configured and can be run as-is, it is **not advisable** to execute them sequentially due to the significant amount of time this would take. To optimize your workflow, it is recommended to adapt the execution by parallelizing the processes.
