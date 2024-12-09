@@ -92,3 +92,9 @@ This repository includes three key scripts designed for the reproducibility of t
 ### Important Note:
 
 While these scripts are fully configured and can be run as-is, it is **not advisable** to execute them sequentially due to the significant amount of time this would take. To optimize your workflow, it is recommended to adapt the execution by parallelizing the processes.
+
+## Citation
+
+If you use our code, please consider citing it as:
+
+de Moura, K.G., Cruz, R.M.O., Sabourin, R. (2025). "Offline Handwritten Signature Verification Using a Stream-Based Approach". In: Antonacopoulos, A., Chaudhuri, S., Chellappa, R., Liu, CL., Bhattacharya, S., Pal, U. (eds) Pattern Recognition. ICPR 2024. Lecture Notes in Computer Science, vol 15331. Springer, Cham. https://doi.org/10.1007/978-3-031-78119-3_19 ([preprint](https://arxiv.org/abs/2411.06510))
